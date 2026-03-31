@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
+import mainTeaseImage from '../assets/browse-apple-tv-main-tease.jpg';
 
 const releaseDate = new Date('2026-04-11T09:00:00+02:00');
 
@@ -97,8 +98,8 @@ function App() {
               },
             },
             React.createElement('img', {
-              src: '/tease-main.jpeg',
-              alt: 'WatchGuide Apple TV teaser',
+              src: mainTeaseImage,
+              alt: 'WatchGuide Apple TV Browse screen main tease image',
               style: { width: '100%', height: '100%', objectFit: 'cover', display: 'block' },
             }),
             React.createElement('div', { style: { position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.32) 55%, rgba(0,0,0,0.68) 100%)' } }),
